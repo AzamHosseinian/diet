@@ -77,7 +77,11 @@ function MainSection() {
           </Typography>
           <Typography
             variant="body1"
-            sx={{ marginBottom: "20px", fontFamily: "YekanBakh" }}
+            sx={{
+              marginBottom: "20px",
+              fontFamily: "YekanBakh",
+              color: "black",
+            }}
           >
             برنامه شخصی سازشده خود را دریافت کنید، ما در هر مرحله با شماییم.
           </Typography>

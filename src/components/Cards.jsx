@@ -57,7 +57,7 @@ function CardsSection() {
           variant="subtitle1"
           textAlign="center"
           fontFamily={"YekanBakh"}
-          color="#3A3A97"
+          color="black"
           fontSize={"18px"}
           mb={4}
         >
@@ -108,12 +108,15 @@ function CardsSection() {
           borderTop: "1px solid #fff",
           borderRadius: "0 200px 200px 0",
           fontFamily: "YekanBakhBold",
+          display: "flex", // Add this line
+          alignItems: "center", // Add this line
+          justifyContent: "center", // Add this line
         }}
       >
         <Typography
           variant="h6"
           fontFamily={"YekanBakhBold"}
-          alignItems="center"
+          textAlign="center"
         >
           به سلامتی خود، با هر لقمه، نزدیک‌تر شوید.
         </Typography>

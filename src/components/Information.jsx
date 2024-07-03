@@ -48,7 +48,7 @@ function InformationSection() {
           sx={{
             width: "45%",
             overflow: "hidden", // Ensures only the top part of the image is shown
-            height: "500px", // Adjust the height as needed
+            height: "400px", // Adjust the height as needed
             borderRadius: "30px",
             boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)", // Added box shadow
           }}
